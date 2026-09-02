@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+float num1,num2,resta;
+
+    cout << "Sistema de suma de numeros" << endl;
+    cout << "Ingresa el primer numero:" << endl;cin >> num1;
+    cout << "Ingresa el segundo numero" << endl;cin >> num2;
+    resta = num1 - num2;
+    cout << "el resultado de la resta es: " <<resta;
+    return 0;
+}
