@@ -1,9 +1,13 @@
+//CENTIGRADOS_A_FAHRENHEIT
 #include <iostream>
 
 using namespace std;
 
-int main()
-{
-    cout << "Hello world!" << endl;
+int main(){
+    float F,C;
+    cout << "Sistema de conversion de grados Fahrenheit a grados Celcius" << endl;
+    cout << "Ingrese grados Celcius" << endl;cin >> C;
+    F=(C*1.8)+32;
+    cout << "La conversion a grados Fahrenheit es: "<<F;
     return 0;
 }
