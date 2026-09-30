@@ -1,0 +1,68 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+    double pesoV;
+    int categoria;
+    double costoCategoria = 0.0;
+    double descuentotepelaje = 0.0;
+    double MultaPeso = 0.0;
+    int paseTepelaje = 0;
+    double totalPagar = 0.0;
+
+    cout << "CALCULADORA DE PEAJE Y EXCESO DE CARGA" << endl;
+    cout << "Ingrese el peso total del vehiculo en toneladas: ";
+    cin >> pesoV;
+    
+    if(pesoV <= 0){
+        cout << "ERROR, el peso del vehiculo debe ser un valor positivo" << endl; 
+        return 1;
+    }
+    
+    cout << "Cuenta con pase electronico de tepelaje (1 = Si, 0 = No): "<< endl;
+    cin >> paseTepelaje;
+    
+    cout << "Seleccione la categoria del vehiculo" << endl;
+    cout << "1: Auto / camioneta ($3.00)" << endl;
+    cout << "2: Autobus ($6.00)" << endl;
+    cout << "3: Camion de carga ($10.00)" << endl;
+    cout << "OPCION: ";   
+    cin >> categoria;   
+    
+    switch (categoria){
+        case 1:
+            costoCategoria = 3.00;
+            break;
+        case 2:
+            costoCategoria = 6.00;
+            break;
+        case 3:
+            costoCategoria = 10.00;
+            break;
+        default:
+            cout << "ERROR: Opcion de categoria no valida" << endl;
+            return 1;
+    }
+    
+    if (categoria == 3 && pesoV >= 12) {
+        MultaPeso = (pesoV - 12)*2.5;
+    }
+    
+    if (paseTepelaje == 1) {
+        descuentotepelaje = costoCategoria * 0.15;
+    }
+    
+
+    totalPagar = (costoCategoria - paseTepelaje) + MultaPeso;
+    
+    cout << fixed << setprecision(2);
+    cout << "--------------- Desglose ---------------"<<endl;
+    cout << "Costo base de la categoria: $" << costoCategoria << endl;
+    cout << "Descuento aplicado por pase de Tepelaje: $" << descuentotepelaje << endl;
+    cout << "Penalizacio por exceso de peso: $" << MultaPeso << endl;
+    cout << "Monto final a pagar: $" << totalPagar << endl;
+
+    return 0;
+}
