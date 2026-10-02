@@ -1,14 +1,13 @@
-//EJERCICIO_HIPOTENUSA_DE_UN_TRIANGULO
+//EJERCICIO_AREA_DE_UN_TRIANGULO
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int main(){
-    float a, b, h;
-    cout << "Sistema de calculo de hipotenusa de un triangulo rectangulo!" << endl;
-    cout << "Ingrese el valor del cateto a: "; cin >> a;
-    cout << "Ingrese el valor del cateto b: "; cin >> b;
-    h = sqrt(pow(a,2) + pow(b,2));
-    cout << "La Hipotenusa es: " << h << endl;
+    float base, altura, area;
+    cout << "Sistema de calculo de area de un triangulo" << endl;
+    cout << "Ingrese la base: "; cin >> base;
+    cout << "Ingrese la altura: "; cin >> altura;
+    area = (base * altura) / 2;
+    cout << "El area del triangulo es: " << area << endl;
     return 0;
 }
