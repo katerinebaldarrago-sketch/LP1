@@ -23,13 +23,12 @@ int main() {
         cout << "x2 = " << x2 << endl;
     } else if (d == 0) {
         x1 = -b / (2 * a);
-        cout << "\
-        }nLa raiz es real y doble (x1 = x2):" << endl;
+        cout << "\nLa raiz es real y doble (x1 = x2):" << endl;
         cout << "x1 = x2 = " << x1 << endl;
     } else {
         PtR = -b / (2 * a);
         PtI = sqrt(-d) / (2 * a);
-        cout << "\nLas raices son complejas:" << -b/(2*a) << " +/- " << sqrt(-d)/(2*a) << "i" << endl;
+        cout << "\nLas raices son complejas:" << endl;
         cout << "x1 = " << PtR << " + " << PtI << "i" << endl;
         cout << "x2 = " << PtR << " - " << PtI << "i" << endl;
     }
