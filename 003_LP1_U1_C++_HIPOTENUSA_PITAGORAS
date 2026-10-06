@@ -1,4 +1,5 @@
-//TEOREMA_DE_PITAGORAS
+// Programa: Teorema de Pitagoras
+// Funcion : Solicita los dos catetos de un triangulo rectangulo y calcula la hipotenusa con la formula hip = sqrt(ca^2 + co^2), mostrando el resultado por pantalla.
 #include <iostream>
 #include <cmath>
 
