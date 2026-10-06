@@ -1,4 +1,5 @@
-//EJERCICIO_AREA_DE_UN_TRIANGULO
+// Programa: Area de un Triangulo
+// Funcion : Solicita la base y la altura de un triangulo y calcula su area con la formula (base * altura) / 2, mostrando el resultado por pantalla.
 #include <iostream>
 using namespace std;
 
