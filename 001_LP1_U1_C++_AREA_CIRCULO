@@ -1,4 +1,5 @@
-//EJERCICIO_AREA_DEL_CIRCULO
+// Programa: Area del Circulo
+// Funcion : Solicita el radio de un circulo y calcula su area con la formula PI * radio^2, mostrando el resultado por pantalla.
 #include <iostream>
 using namespace std;
 
