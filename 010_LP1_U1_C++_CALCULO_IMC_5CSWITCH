@@ -1,5 +1,6 @@
+// Programa: Calculo de IMC (version if + switch, 5 categorias)
+// Funcion : Solicita peso y estatura, calcula el IMC y lo clasifica en 5 categorias (Bajo peso, Normal, Sobrepeso, Obesidad I y II) usando if/else if para asignar rango y switch para mostrar el resultado.
 #include <iostream>
-
 using namespace std;
 
 int main() {
