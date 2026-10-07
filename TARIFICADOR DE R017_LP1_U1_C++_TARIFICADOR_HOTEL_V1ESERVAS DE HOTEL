@@ -1,3 +1,5 @@
+// Programa: Tarificador de Reservas de Hotel
+// Funcion : Calcula el costo total de una reserva segun noches de estadia, numero de huespedes, plan de alimentacion y tipo de habitacion, aplicando recargo por huespedes adicionales y 12% de descuento por estadias mayores a 5 noches, mostrando un desglose detallado.
 #include <iostream>
 #include <iomanip>
 using namespace std;
