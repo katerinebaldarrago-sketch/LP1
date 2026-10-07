@@ -1,3 +1,5 @@
+// Programa: Ecuacion de Segundo Grado (version completa)
+// Funcion : Resuelve una ecuacion cuadratica ax^2 + bx + c = 0, cubriendo todos los casos: a=0 (lineal, infinitas o sin solucion), discriminante > 0 (raices reales distintas), = 0 (raiz doble) y < 0 (raices complejas conjugadas con complex<double>).
 #include <iostream>
 #include <complex>
 #include <cmath>
