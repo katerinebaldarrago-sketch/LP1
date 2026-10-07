@@ -1,3 +1,5 @@
+// Programa: Conversion de Numeros a Letras (rango 1 a 100)
+// Funcion : Solicita un numero entre 1 y 100 y lo muestra en palabras en espanol, usando if/else if y switch anidados para unidades, decenas y casos especiales (10-29).
 #include <iostream>
 #include <cmath>
 
