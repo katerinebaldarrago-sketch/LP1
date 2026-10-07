@@ -1,3 +1,5 @@
+// Programa: Sistema de Ventas y Descuentos
+// Funcion : Solicita el monto de compra y el tipo de cliente (Regular 5%, Miembro 10%, VIP 20%), aplica un 5% adicional si el monto supera 200, y muestra el desglose del descuento y el monto final a pagar.
 #include <iostream>
 #include <iomanip>
 using namespace std;
