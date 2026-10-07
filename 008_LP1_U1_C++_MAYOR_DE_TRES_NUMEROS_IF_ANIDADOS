@@ -1,5 +1,6 @@
+// Programa: Mayor de Tres Numeros (version con if anidados y >=)
+// Funcion : Solicita tres numeros y determina cual es el mayor usando if anidados con comparaciones >=, manejando correctamente los empates.
 #include <iostream>
-
 using namespace std;
 
 int main()
