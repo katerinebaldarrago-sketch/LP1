@@ -1,3 +1,6 @@
+// Programa: Mayor de Tres Numeros (version con operadores logicos)
+// Funcion : Solicita tres numeros y determina cual es el mayor usando operadores logicos (&&) en una estructura if/else if/else.
+// Funciona en la mayoría de casos, pero falla con empates. Requiere corrección.
 #include <iostream>
 
 using namespace std;
