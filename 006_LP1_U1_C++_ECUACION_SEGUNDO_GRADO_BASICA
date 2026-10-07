@@ -1,4 +1,5 @@
-// Programa: Hallar raices de una ecuacion cuadratica ingresando a, b y c
+// Programa: Ecuacion de Segundo Grado (version basica)
+// Funcion : Solicita los coeficientes a, b y c de una ecuacion cuadratica, calcula el discriminante y muestra las raices reales (d > 0), raiz doble (d = 0) o complejas (d < 0).
 #include <iostream>
 #include <cmath>
 using namespace std;
