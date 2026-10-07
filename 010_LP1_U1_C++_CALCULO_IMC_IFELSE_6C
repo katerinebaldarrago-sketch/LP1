@@ -1,5 +1,6 @@
+// Programa: Calculo de IMC (version if/else if directo)
+// Funcion : Solicita el peso y la altura, calcula el Indice de Masa Corporal y lo clasifica en 6 categorias (Bajo peso, Normal, Sobrepeso, Obesidad I, II y III) usando if/else if encadenados.
 #include <iostream>
-
 using namespace std;
 
 int main()
