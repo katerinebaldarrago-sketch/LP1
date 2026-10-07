@@ -1,3 +1,5 @@
+// Programa: Clasificacion Basica de Numeros (paridad)
+// Funcion : Solicita un numero entero y determina si es nulo (cero), par o impar usando el operador modulo (%) y una estructura if/else if/else.
 #include <iostream>
 using namespace std;
 
