@@ -1,3 +1,5 @@
+// Programa: Clasificacion de Glucosa (version basica)
+// Funcion : Solicita el nivel de glucosa en sangre (mg/dL) y lo clasifica en 4 categorias (Hipoglucemia, Normal, Prediabetes, Posible Diabetes) usando if/else if para asignar la categoria y switch para mostrarla.
 #include <iostream>
 using namespace std;
 
