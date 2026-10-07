@@ -1,3 +1,5 @@
+// Programa: Conversion de Numeros a Letras (version modular, 1 a 1000)
+// Funcion : Convierte numeros del 1 al 1000 a palabras en espanol usando funciones modulares (unidades, decenas, centenas) con switch, y muestra el resultado con un bucle for.
 #include <iostream>
 #include <string>
 
