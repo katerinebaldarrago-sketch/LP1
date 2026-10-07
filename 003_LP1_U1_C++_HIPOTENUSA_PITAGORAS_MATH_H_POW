@@ -1,4 +1,5 @@
-//EJERCICIO_HIPOTENUSA_DE_UN_TRIANGULO
+// Programa: Hipotenusa de un Triangulo (version con math.h y pow)
+// Funcion : Solicita los dos catetos de un triangulo rectangulo y calcula la hipotenusa usando la libreria math.h y la funcion pow para elevar al cuadrado, aplicando el Teorema de Pitagoras.
 #include <iostream>
 #include <math.h>
 using namespace std;
