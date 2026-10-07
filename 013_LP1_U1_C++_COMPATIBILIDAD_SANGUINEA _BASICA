@@ -1,3 +1,5 @@
+// Programa: Compatibilidad Sanguinea (version basica)
+// Funcion : Solicita el tipo de sangre del donante y receptor (8 tipos) y determina si la donacion es compatible usando switch anidados con salida directa en cada caso.
 #include <iostream>
 using namespace std;
 
