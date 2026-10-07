@@ -1,3 +1,5 @@
+// Programa: Datos Personales
+// Funcion : Solicita nombre, apellido y edad al usuario y los muestra formateados en pantalla (nombre completo y edad).
 #include <iostream>
 #include <string>
 
