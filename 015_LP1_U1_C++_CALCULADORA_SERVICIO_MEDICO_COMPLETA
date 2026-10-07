@@ -1,3 +1,5 @@
+// Programa: Calculadora de Triaje y Costos de Consulta Medica (version completa)
+// Funcion : Calcula el costo de una consulta segun el servicio (Medicina General, Pediatria, Cardiologia, Traumatologia), aplica 25% de descuento a mayores de 65 anios y 20% de recargo en horario nocturno, advirtiendo si un adulto intenta atenderse en Pediatria.
 #include <iostream>
 #include <iomanip>
 using namespace std;
