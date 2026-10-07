@@ -1,4 +1,5 @@
-//EJERCICIO_SUMA_RESTA_MULTIPLICACION_DIVISION
+// Programa: Operaciones Basicas
+// Funcion : Solicita dos numeros y realiza las cuatro operaciones basicas (suma, resta, multiplicacion y division), validando que no se divida entre cero.
 #include <iostream>
 
 using namespace std;
