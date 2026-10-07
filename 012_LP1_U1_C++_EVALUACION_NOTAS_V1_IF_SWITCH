@@ -1,5 +1,7 @@
-#include <iostream>
+// Programa: Evaluacion de Notas (version con if/else if + switch)
+// Funcion : Solicita una nota entre 0 y 20, muestra su estado (Excelente, Bueno, Regular, Desaprobado) y su categoria (A, B, C, D) usando dos bloques de if/else if y un switch.
 
+#include <iostream>
 using namespace std;
 
 int main() {
