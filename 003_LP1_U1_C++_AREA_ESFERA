@@ -1,5 +1,5 @@
-// Programa: Area del Circulo
-// Funcion : Solicita el radio de un circulo y calcula su area con la formula PI * radio^2, mostrando el resultado por pantalla.
+// Programa: Area de una Esfera
+// Funcion : Solicita el radio de una esfera y calcula su area superficial con la formula A = 4 * PI * r^2, mostrando el resultado por pantalla.
 #include <iostream>
 using namespace std;
 
@@ -7,12 +7,12 @@ int main() {
     const double PI = 3.14159265358979;
     double radio, area;
 
-    cout << "Ingrese el radio del circulo: ";
+    cout << "Ingrese el radio de la esfera: ";
     cin >> radio;
 
-    area = PI * radio * radio;
+    area = 4 * PI * radio * radio;
 
-    cout << "El area del circulo es: " << area << endl;
+    cout << "El area de la esfera es: " << area << endl;
 
     return 0;
 }
