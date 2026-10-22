@@ -1,3 +1,5 @@
+// Programa: Tabla de Multiplicar del 1 al 10
+// Funcion : Muestra las tablas de multiplicar del 1 al 10 usando dos bucles for anidados, recorriendo el multiplicando y el multiplicador.
 #include <iostream>
 
 using namespace std;
