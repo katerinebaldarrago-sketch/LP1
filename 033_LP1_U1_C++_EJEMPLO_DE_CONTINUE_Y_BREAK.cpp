@@ -1,3 +1,5 @@
+// Programa: Ejemplo de continue y break
+// Funcion : Muestra los numeros del 1 al 10 usando un bucle for, omitiendo el numero 3 con continue y deteniendo el bucle al llegar al 8 con break.
 #include <iostream>
 
 using namespace std;
